@@ -1,0 +1,21 @@
+.footerContainer {
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socialIcons a {
+    transition: transform 0.3s;
+}
+
+.socialIcons a:hover {
+    transform: scale(1.2);
+}
