@@ -1,0 +1,13 @@
+.contactContainer {
+  width: auto;
+  margin: 0 auto;
+  height: 100%;
+  background-color: rgb(203, 243, 243);
+  background-size: cover;
+
+}
+
+.highlight {
+    font-weight: 600;
+    color: #2563eb;
+}
