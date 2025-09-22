@@ -1,6 +1,9 @@
 .contactContainer {
-  max-width: 1200px;
+  width: auto;
   margin: 0 auto;
+  height: 100%;
+  background-color: rgb(203, 243, 243);
+  background-size: cover;
 
 }
 
@@ -12,6 +15,11 @@
 
 .myImage {
   margin-bottom: 80px;
-  max-width: 350px;
+  max-width: 400px;
+  margin-left: 80px;
+  height: 500px;
+  padding-bottom: 150px;
+
+
 }
 

@@ -40,10 +40,10 @@ const Contact = () => {
     };
 
     return (
-        <section className={`${styles.contactContainer} p-8`}>
-        <h2 className="text-3xl font-bold mb-8 mt-12 ml-150">Contact Me </h2>
+            <section className={`${styles.contactContainer} w-full min-h-screen bg-blue-100 p-8`}>
+        <h2 className="text-3xl font-bold mb-8 mt-12 ml-150 pl-35">Contact Me</h2>
 
-        <div className="flex flex-col lg:flex-row gap-10 items-start">
+        <div className="flex flex-col lg:flex-row gap-10 items-start w-full">
 
             <div className="flex-1">
                 <img
