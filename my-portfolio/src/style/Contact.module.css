@@ -1,0 +1,17 @@
+.contactContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.contactImage {
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.myImage {
+  margin-bottom: 80px;
+  max-width: 350px;
+}
+

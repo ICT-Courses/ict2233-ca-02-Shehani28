@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
+      
     <Router>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Routes>
