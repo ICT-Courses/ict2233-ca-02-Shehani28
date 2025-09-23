@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "../style/Contact.module.css";
 import contactImage from "../assets/contact.jpg";
 import { FaGithub,FaLinkedin,FaEnvelope } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 const Contact = () => {
@@ -41,7 +42,13 @@ const Contact = () => {
 
     return (
             <section className={`${styles.contactContainer} w-full min-h-screen bg-blue-100 p-8`}>
-        <h2 className="text-3xl font-bold mb-8 mt-12 ml-150 pl-35">Contact Me</h2>
+               <motion.h1
+                    className="text-4xl font-bold text-center mb-8 mt-12"
+                    initial={{ opacity:0, y:50}}
+                    animate={{ opacity:1, y:0}}
+                    transition={{ duration:0.8}} >
+                        Contact Me
+                </motion.h1>
 
         <div className="flex flex-col lg:flex-row gap-10 items-start w-full">
 

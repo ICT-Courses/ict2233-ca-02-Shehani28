@@ -1,11 +1,18 @@
 import React from "react";
 import styles from "../style/About.module.css";
 import profile from "../assets/Page.jpg";
+import {motion} from "framer-motion";
 
 const About = () => {
   return (
               <section className={`${styles.contactContainer} w-full min-h-screen bg-blue-100 p-8`}>
-          <h2 className="text-3xl font-bold mb-8 mt-12 pl-35 text align-center ml-120">About Me</h2>
+           <motion.h1
+            className="text-4xl font-bold text-center mb-8 mt-12"
+            initial={{ opacity:0, y:50}}
+            animate={{ opacity:1, y:0}}
+            transition={{ duration:0.8}} >
+              About Me
+            </motion.h1>
 
         <p className="text-lg mb-6 leading-relaxed text-gray-800">
           I am a second year undergraduate at
