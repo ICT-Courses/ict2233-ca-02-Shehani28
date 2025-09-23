@@ -9,9 +9,9 @@ const projects = [
     {
         id:1,
         title: "Weather Forecast Site",
-        description: "Weather forecasting app using OpenWeather API and C# backend.",
+        description: "Weather forecasting Desktop app using OpenWeather API and C#.",
         image: Project1,
-        github:"",
+        github:"https://github.com/ICT-Courses/application-development-ca1-Shehani28",
         demo: "",
     },
     {
@@ -19,7 +19,7 @@ const projects = [
         title: "Coffee Menu Website",
         description: "A simple and stylish coffee shop menu website built with React+js",
         image: Project2,
-        github: "",
+        github: "https://github.com/ICT-Courses/ict2233-ca-01-Shehani28",
         demo: "",
     },
     {
@@ -28,7 +28,7 @@ const projects = [
         description: "An e-commerce style furniture website showcasing modern designs.",
         image: Project3,
         github: "",
-        demo: "",
+        demo: "https://drive.google.com/file/d/1MGukgvHDIKE4DkX2jfwEx0vvqHBT6hyv/view?usp=drivesdk",
     },
 ];
 

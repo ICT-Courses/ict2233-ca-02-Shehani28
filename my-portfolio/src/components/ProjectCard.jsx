@@ -22,7 +22,7 @@ const ProjectCard = ({ title, description, image, github, demo}) => {
                     href={demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600" >
+                    className="px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900" >
                        Live Demo
                     </a>
                     )}
