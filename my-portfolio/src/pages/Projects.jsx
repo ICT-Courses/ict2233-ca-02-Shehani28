@@ -18,7 +18,7 @@ const projects = [
     {
         id:2,
         title: "Coffee Menu Website",
-        description: "A simple and stylish coffee shop menu website built with React+js",
+        description: "A simple and stylish coffee shop menu website built with React+js and bootstrap.",
         image: Project2,
         github: "https://github.com/ICT-Courses/ict2233-ca-01-Shehani28",
         demo: "",
