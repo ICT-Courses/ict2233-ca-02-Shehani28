@@ -5,6 +5,7 @@ import Project1 from "../assets/Weather.png";
 import Project2 from "../assets/Coffee.png";
 import Project3 from "../assets/Furniture.png";
 
+
 const projects = [
     {
         id:1,
