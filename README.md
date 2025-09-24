@@ -33,4 +33,4 @@ JavaScript (ES6+) – Core programming language
 HTML5 & CSS3 – Markup and styling
 Git & GitHub – Version control and deployment via GitHub Pages
 # Live Demo
-Check out the live demo here: [My-Portfolio] (
+Check out the live demo here: [My-Portfolio] (https://ict-courses.github.io/ict2233-ca-02-Shehani28/)
